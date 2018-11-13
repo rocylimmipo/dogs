@@ -1,0 +1,109 @@
+a{
+	text-decoration: none;
+}
+
+
+
+/* MAIN HEADER */
+.main-header {
+	margin-bottom:5px;
+	font-family: Bookman Old Style ;
+}
+	
+	
+/* BUTTONS */
+.button {
+	background: #dee03b;
+	color: black;
+	padding: 10px 25px;
+}
+
+.button:hover{
+	background: #527e82;
+	color: white;
+}
+
+
+/*MAIN-MENU */
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+
+ /* SHOWCASE */
+.showcase{
+	margin: 10px 10px ;
+	padding: 300px;
+	background-image: url(../images/sunny.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+
+}
+
+
+/*MAIN ARTICLE SECTION */
+
+.main-article{
+	margin-bottom: 10px;
+	font-family: Consolas;
+	display:grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+	
+}
+
+/* MAIN ARTICLE LEFT */
+
+.main-article-left {
+	background: #ebf2b3;
+	padding: 20px;
+	display:grid;
+	grid-gap: 50px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.main-article-left p{
+	text-align: justify ;
+	margin: 40px 0 40px 0;
+}
+
+.main-article-left h3{
+	margin-top: 20px;
+}
+
+/* MAIN ARTICLE RIGHT */
+
+.main-article-right {
+	background: #ebf2b3;
+	padding: 40px;
+}
+
+.main-article-right h3 {
+	margin-top: 5px;
+}
+
+.main-article-right p{
+	text-align: justify ;
+	margin-bottom: 40px;
+}
+
+
+/* FOOTER */
+.footer{
+	background: #c1c267;
+	padding: 5px;
+	margin:10px ;
+	font-family: Bookman Old Style ;
+	text-align: center; 
+}
+
+.footer:hover{
+	background: #527e82;
+	color: white ;
+}
